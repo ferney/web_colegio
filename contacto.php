@@ -2,7 +2,7 @@
 	$nombre = $_POST['nombre'];
 	$asunto = $_POST['asunto'];
 	$mensaje = $_POST['mensaje'];
-	$mail="williamarguello@unisangil.edu.co";
+	$mail="xxxxxxxxxxxxxx";
 
 $message="
 Nombre: .$nombre
