@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header1 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url("fondo6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative; z-index:1;
+}
+.header2 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url("fondo1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative; z-index:1;
+}
+.header3 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url("fondo2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative; z-index:1;
+}
+.header4 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url("fondo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative; z-index:1;
+}
+.header5 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url("fondo4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative; z-index:1;
+}
+.header6 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url("fondo5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative; z-index:1;
+}
+.header7 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url("fondo7.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative; z-index:1;
+}
+.header8 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url("fondo8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative; z-index:1;
+}
+.header9 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url("fondo9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative; z-index:1; 
+}
+
+
+main {
+  width: 100%;
+  padding: 5% 10%;
+  background-color: #f2f2f2;
+}
+
+main section {
+  margin-bottom: 50px;
+  color: #222;
+}
+
+main section h2 {
+  font-size: 3em;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+main section p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+main .inspired {
+  display: inline-block;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  padding: 5px 10px;
+  line-height: 2em;
+  background-color: #263238;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.flexky {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  transition: background-color 0.3s;
+}
+
+@media screen and (max-width: 900px) {
+  .flexky {
+    background-color: #263238;
+  }
+}
+
+.flexky--scroll {
+  background-color: #263238;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.flexky--scroll .flexky__img {
+  width: 45px;
+  height: 45px;
+  top: 7.5px;
+  transform: translateY(0);
+}
+
+.flexky__button {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .flexky__button {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 25px;
+    height: 25px;
+    margin: 17.5px;
+    float: right;
+    cursor: pointer;
+  }
+}
+
+.flexky__button span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+}
+/*aqui se modifica el tamaño de letra y espacio delmenu primcipal*/
+.flexky__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  list-style: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 900px) {
+  .flexky__container {
+    display: block;
+    width: 300px;
+    height: 100vh;
+    margin: 0;
+    background-color: #11171a;
+    transform: translate(-300px, 60px);
+    transition: transform 0.3s ease-in-out;
+  }
+  .flexky__container--active {
+    transform: translate(0, 60px);
+  }
+}
+
+.flexky__link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+   font-size: 20px;
+  line-height: 60px;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 900px) {
+  .flexky__link {
+    padding-left: 15px;
+    line-height: 3;
+    background-color: #11171a;
+    box-shadow: 0 0 #fff inset, 0 0 #07090a inset;
+  }
+  .flexky__link:hover {
+    padding-left: 20px;
+    box-shadow: 5px 0 #fff inset, 300px 0 #07090a inset;
+  }
+}
+
+.flexky__img {
+  display: block;
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 300px;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 900px) {
+  .flexky__img {
+    display: none;
+  }
+}
+
+p{
+    text-align: justify;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #11171a;
+
+}
+#zzz{
+    text-align: center;
+}
+#a,aa{
+    width: 40%;
+}
+#aa{
+    width: 10%;
+}
+#xyz{
+    width: 80%;
+}
+
+
+h2{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+li{
+    text-align: justify;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #11171a;
+}
+h1,h3, h4, h5{
+  text-align: center;
+  color: royalblue;
+  font-size: 40px;
+}
+
+
+/*
+.columna1,.columna2,.columna3,.columna4,.columna5,.columna6,.columna7,.columna8,.columna9{
+/*background-color: lightgrey;
+    width: 30%;
+    float: left;
+    margin: 1%;
+
+}*/
+
+.total{
+  text-align: center;
+  width: 100%;
+  margin: 1%;
+}
+.ñ{
+  font-size: 20px;
+}
+
+/*
+#section1{
+  background: url(../3.jpg);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}*/
+
+
+
+.flotante {
+    display:scroll;
+        position:fixed;
+        bottom:320px;
+        right:0px;
+}
+
+
+.banner{
+ width: 1000px;
+ height: 600px;
+ border: 5px solid #050505;
+ margin: auto;
+ animation: banner 30s infinite linear alternate;
+ background-size: 100% 100%;
+ margin-top: 100px;
+}
+
+@keyframes banner {
+  0%, 14%{
+    background-image: url(1.jpeg);
+      opacity: 1;
+
+    }15%,16%{
+        opacity: 0.5;
+    }
+
+     17%, 31%{
+    background-image: url(2.jpg);
+          opacity: 1;
+
+    } 32%, 33%{
+        opacity: 0.5;
+    }
+      34%, 48%{
+    background-image: url(3.jpg);
+           opacity: 1;
+
+    }49%,50%{
+        opacity: 0.5;
+    }
+
+     51%, 65%{
+    background-image: url(4.jpg);
+          opacity: 1;
+
+    } 66%, 67%{
+        opacity: 0.5;
+    }
+      68%, 82%{
+    background-image: url(5.jpg);
+           opacity: 1;
+
+    }83%,84%{
+        opacity: 0.5;
+    }
+
+     85%, 100%{
+    background-image: url(6.jpg);
+         opacity: 1;
+
+}
+}
+    @media only screen and (
+        min-width:100px) and (max-width:700px)
+    {
+        .banner{
+            width: 300px;
+            height: 200px;
+        }

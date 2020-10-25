@@ -1,0 +1,40 @@
+#migaleria {
+	width: 100%;
+}
+
+#migaleria h1 {
+	text-align: center;
+}
+
+#migaleria #galeria {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#migaleria #galeria .galeria, #migaleria #galeria .thumbnail {
+	float: left;
+	margin: 15px;
+	width: 120px;
+	height: 100px;
+}
+
+#migaleria #galeria .galeria img, #migaleria #galeria .thumbnail img, #migaleria #galeria .imagen img {
+	border: 2px solid black	;
+}
+
+#migaleria #galeria .galeria a, #migaleria #galeria .thumbnail a {
+	color: #000;
+	text-decoration: none;
+}
+
+#migaleria #galeria .imagen img {
+	width: 500px;
+}
+
+#migaleria #galeria .nav {
+	margin-bottom: 1em;
+}
+
+#migaleria .clear {
+	clear: both;
+}
